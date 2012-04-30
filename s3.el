@@ -101,7 +101,7 @@
      "?AWSAccessKeyId="
      s3-access-key
      "&Signature="
-     signature
+     (url-hexify-string signature)
      "&Expires="
      expiration)))
 
